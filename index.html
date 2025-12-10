@@ -1,0 +1,585 @@
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta name="theme-color" content="#000000">
+      <title>Direct Sales</title>
+      <script type="text/javascript">window.REACT_APP_DSA_SERVER_URL="https://direct-sales.intranet.o2.cz/api/direct-sales/",window.REACT_APP_AZURE_TENANT_ID="b287c0b1-6968-4dc8-9732-8d00f2760e89",window.REACT_APP_AZURE_APPLICATION_ID="a90fdbd7-fe50-440b-bfe8-863209db8bd3",window.REACT_APP_ENV_BASENAME="/direct-sales"</script><script defer="defer" src="/direct-sales/static/js/main.3b29d3dc.js"></script>
+      <link href="/direct-sales/static/css/main.a825de8e.css" rel="stylesheet">
+      <style data-emotion="css-global" data-s=""></style>
+      <style data-emotion="css-global" data-s=""></style>
+      <style data-emotion="css-global" data-s=""></style>
+      <style data-emotion="css-global" data-s=""></style>
+      <style data-emotion="css-global" data-s=""></style>
+      <style data-emotion="css-global" data-s=""></style>
+      <style data-emotion="css-global" data-s=""></style>
+      <style data-emotion="css-global" data-s=""></style>
+      <style data-emotion="css-global" data-s=""></style>
+      <style data-emotion="css-global" data-s=""></style>
+      <style data-emotion="css" data-s=""></style>
+      <style>._button_10caf_25{border-radius:8px;border:unset;cursor:pointer;transition:.3s}._button_10caf_25:disabled{opacity:.3;cursor:not-allowed}._button_default_10caf_35{background:transparent;color:#43434e}._button_default_10caf_35:hover{background:#f3f4f7}._button_default_10caf_35:active{background:#8e8e8e}._button_default_10caf_35 ._svg_10caf_45 *{fill:#43434e}._button_primary_10caf_48{background:#7b5ed4;color:#fff}._button_primary_10caf_48:hover{background:#684ac3}._button_primary_10caf_48:active{background:#66b2ff}._button_primary_10caf_48 ._svg_10caf_45 *{fill:#fff}._button_link_10caf_61{background:transparent;color:#7b5ed4}._button_link_10caf_61:hover{color:#684ac3}._button_link_10caf_61:active{color:#66b2ff}._button_link_10caf_61 ._svg_10caf_45 *{fill:#7b5ed4}._button_link_10caf_61 ._svg_10caf_45 *:hover{fill:#684ac3}._button_link_10caf_61 ._svg_10caf_45 *:active{fill:#66b2ff}._button_large_10caf_80{padding:12px 16px}._button_large_10caf_80 *{font-size:16px}._button_medium_10caf_86{padding:8px 16px}._button_medium_10caf_86 *{font-size:16px}._button_small_10caf_92{padding:4px;min-height:24px}._button_small_10caf_92 *{font-size:12px}._flexBox_9xdww_14{flex-flow:unset}._gap_extraTiny_9xdww_18{gap:2px}._gap_tiny_9xdww_22{gap:4px}._gap_extraSmall_9xdww_26{gap:6px}._gap_small_9xdww_30{gap:8px}._gap_medium_9xdww_34{gap:16px}._gap_normal_9xdww_38{gap:24px}._gap_large_9xdww_42{gap:32px}._gap_xLarge_9xdww_46{gap:48px}._gap_xxLarge_9xdww_50{gap:56px}._gap_extraLarge_9xdww_54{gap:64px}._column_9xdww_58{flex-direction:column!important}._flexWrap_9xdww_62{flex-wrap:wrap}._popover_12uvb_1{position:fixed;padding:8px 10px;z-index:2147483647;background:#31363de6;border-radius:4px;color:#fff;font-size:14px}._buttons_12uvb_11{position:fixed;top:0;right:0;padding:8px;z-index:2147483647}._popup_hcu7e_1{position:fixed;z-index:2147483649;background:#ffffffe6;border-radius:4px;color:#000;font-size:14px;line-height:1.286;width:350px;-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px);box-shadow:0 0 7px -5px #000}._popup_hcu7e_1:before{border-color:rgba(255,255,255,.9) transparent;border-width:0 7px 7px 7px;left:7px;top:-7px;border-style:solid;content:".";display:block;height:0;position:absolute;text-indent:-30000px;width:0}._color_hcu7e_27{width:20px;height:20px;cursor:pointer;flex-shrink:0}._styleContainer_hcu7e_34{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}._extraTiny_dg7lc_14{padding:2px}._extraTinyVR_dg7lc_18{padding-top:2px;padding-bottom:2px}._extraTinyHR_dg7lc_23{padding-left:2px;padding-right:2px}._extraTinyTop_dg7lc_28{padding-top:2px}._extraTinyRight_dg7lc_32{padding-right:2px}._extraTinyBottom_dg7lc_36{padding-bottom:2px}._extraTinyLeft_dg7lc_40{padding-left:2px}._tiny_dg7lc_44{padding:4px}._tinyVR_dg7lc_48{padding-top:4px;padding-bottom:4px}._tinyHR_dg7lc_53{padding-left:4px;padding-right:4px}._tinyTop_dg7lc_58{padding-top:4px}._tinyRight_dg7lc_62{padding-right:4px}._tinyBottom_dg7lc_66{padding-bottom:4px}._tinyLeft_dg7lc_70{padding-left:4px}._extraSmall_dg7lc_74{padding:6px}._extraSmallVR_dg7lc_78{padding-top:6px;padding-bottom:6px}._extraSmallHR_dg7lc_83{padding-left:6px;padding-right:6px}._extraSmallTop_dg7lc_88{padding-top:6px}._extraSmallRight_dg7lc_92{padding-right:6px}._extraSmallBottom_dg7lc_96{padding-bottom:6px}._extraSmallLeft_dg7lc_100{padding-left:6px}._small_dg7lc_104{padding:8px}._smallVR_dg7lc_108{padding-top:8px;padding-bottom:8px}._smallHR_dg7lc_113{padding-left:8px;padding-right:8px}._smallTop_dg7lc_118{padding-top:8px}._smallRight_dg7lc_122{padding-right:8px}._smallBottom_dg7lc_126{padding-bottom:8px}._smallLeft_dg7lc_130{padding-left:8px}._medium_dg7lc_134{padding:16px}._mediumVR_dg7lc_138{padding-top:16px;padding-bottom:16px}._mediumHR_dg7lc_143{padding-left:16px;padding-right:16px}._mediumTop_dg7lc_148{padding-top:16px}._mediumRight_dg7lc_152{padding-right:16px}._mediumBottom_dg7lc_156{padding-bottom:16px}._mediumLeft_dg7lc_160{padding-left:16px}._normal_dg7lc_164{padding:24px}._normalVR_dg7lc_168{padding-top:24px;padding-bottom:24px}._normalHR_dg7lc_173{padding-left:24px;padding-right:24px}._normalTop_dg7lc_178{padding-top:24px}._normalRight_dg7lc_182{padding-right:24px}._normalBottom_dg7lc_186{padding-bottom:24px}._normalLeft_dg7lc_190{padding-left:24px}._large_dg7lc_194{padding:32px}._largeVR_dg7lc_198{padding-top:32px;padding-bottom:32px}._largeHR_dg7lc_203{padding-left:32px;padding-right:32px}._largeTop_dg7lc_208{padding-top:32px}._largeRight_dg7lc_212{padding-right:32px}._largeBottom_dg7lc_216{padding-bottom:32px}._largeLeft_dg7lc_220{padding-left:32px}._xLarge_dg7lc_224{padding:48px}._xLargeVR_dg7lc_228{padding-top:48px;padding-bottom:48px}._xLargeHR_dg7lc_233{padding-left:48px;padding-right:48px}._xLargeTop_dg7lc_238{padding-top:48px}._xLargeRight_dg7lc_242{padding-right:48px}._xLargeBottom_dg7lc_246{padding-bottom:48px}._xLargeLeft_dg7lc_250{padding-left:48px}._xxLarge_dg7lc_254{padding:56px}._xxLargeVR_dg7lc_258{padding-top:56px;padding-bottom:56px}._xxLargeHR_dg7lc_263{padding-left:56px;padding-right:56px}._xxLargeTop_dg7lc_268{padding-top:56px}._xxLargeRight_dg7lc_272{padding-right:56px}._xxLargeBottom_dg7lc_276{padding-bottom:56px}._xxLargeLeft_dg7lc_280{padding-left:56px}._extraLarge_dg7lc_284{padding:64px}._extraLargeVR_dg7lc_288{padding-top:64px;padding-bottom:64px}._extraLargeHR_dg7lc_293{padding-left:64px;padding-right:64px}._extraLargeTop_dg7lc_298{padding-top:64px}._extraLargeRight_dg7lc_302{padding-right:64px}._extraLargeBottom_dg7lc_306{padding-bottom:64px}._extraLargeLeft_dg7lc_310{padding-left:64px}._size_tiny_ldink_23,._size_tiny_ldink_23 *{font-size:12px}._size_small_ldink_27,._size_small_ldink_27 *{font-size:16px}._size_medium_ldink_31,._size_medium_ldink_31 *{font-size:18px}._size_large_ldink_35,._size_large_ldink_35 *{font-size:32px}._weight_thin_ldink_39,._weight_thin_ldink_39 *{font-weight:100}._weight_extraLight_ldink_43,._weight_extraLight_ldink_43 *{font-weight:200}._weight_light_ldink_47,._weight_light_ldink_47 *{font-weight:300}._weight_normal_ldink_51,._weight_normal_ldink_51 *{font-weight:400}._weight_medium_ldink_55,._weight_medium_ldink_55 *{font-weight:500}._weight_semiBold_ldink_59,._weight_semiBold_ldink_59 *{font-weight:600}._weight_bold_ldink_63,._weight_bold_ldink_63 *{font-weight:700}._weight_extraBold_ldink_67,._weight_extraBold_ldink_67 *{font-weight:800}._lineHeight_ldink_71{line-height:100%}._secondary_ldink_75{color:#8e8e8e}._modal_ib2ay_25{position:fixed;top:0;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:center;z-index:2147483649}._modal_ib2ay_25 ._background_ib2ay_36{position:absolute;top:0;left:0;width:100%;height:100%;transition:.3s;opacity:0;overflow:auto;background-color:color-mix(in srgb,#000000 60%,white 0%);-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px)}._modal_ib2ay_25 ._window_ib2ay_48{min-width:280px;max-width:560px;background:#fff;border-radius:6px;padding:16px;z-index:1;position:relative;opacity:0;transform:scale(.01);transition:.3s;display:flex;flex-direction:column;box-shadow:0 2px 6px 2px #00000026,0 1px 2px #0000004d;overflow:auto}._modal_ib2ay_25 ._window_ib2ay_48 ._loading_ib2ay_64{position:absolute;width:100%;height:100%;top:0;left:0;background:#000000b3}._modal_ib2ay_25 ._window_ib2ay_48 ._loading_ib2ay_64 img{width:100px}._modal_visible_ib2ay_76 ._background_ib2ay_36{opacity:1}._modal_visible_ib2ay_76 ._window_ib2ay_48{opacity:1;transform:scale(1)}._modal_hidden_ib2ay_83 ._background_ib2ay_36{opacity:0}._modal_hidden_ib2ay_83 ._window_ib2ay_48{opacity:0;transform:scale(.01)}._modal_hiddenDone_ib2ay_90 ._background_ib2ay_36{opacity:0}._modal_hiddenDone_ib2ay_90 ._window_ib2ay_48{opacity:0;transform:scale(.01)}._color_13dyv_1{padding:0 8px;border-radius:8px;width:100%;box-shadow:0 0 7px -5px #000;font-weight:800;flex-shrink:0}</style>
+   </head>
+   <body>
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <div id="root">
+         <div class="O2Layout-root css-t8l4nx">
+            <nav class="css-jjqbl9">
+               <div class="header-container MuiBox-root css-i9gxme">
+                  <div class="css-17ihihg">
+                     <div class="MuiContainer-root O2Container-root css-ehn054">
+                        <div class="O2Container-columns MuiBox-root css-3u7wi5">
+                           <div class="css-69gayk">
+                              <div class="css-27hh1c">
+                                 <a href="/direct-sales" style="text-decoration: none; color: rgb(0, 0, 30);">
+                                    <div class="MuiStack-root css-nwzwky"><img src="https://cdn.o2.cz/mojeo2-product/omni/docs/ssd/logo-o2-blue.png" alt="Logo" style="width: 35px; height: 35px;">Direct sales</div>
+                                 </a>
+                                 <div class="MuiTypography-root MuiTypography-h5 css-kx1g9d"></div>
+                                 <h6 class="MuiTypography-root MuiTypography-h6 css-1sjtb2q">Hájek Michal</h6>
+                                 &nbsp;<span class="MuiTypography-root MuiTypography-caption css-1wh5sbf"></span>
+                                 <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-4fjpu0" tabindex="0" type="button">
+                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" color="#00001E" aria-hidden="true" viewBox="0 0 24 24" data-testid="ExitIcon">
+                                       <path d="M16 16C15.447 16 15 16.447 15 17V20H5V4H15V7C15 7.552 15.447 8 16 8C16.553 8 17 7.552 17 7V4C17 2.897 16.103 2 15 2H5C3.897 2 3 2.897 3 4V20C3 21.103 3.897 22 5 22H15C16.103 22 17 21.103 17 20V17C17 16.447 16.553 16 16 16Z" fill="currentColor"></path>
+                                       <path d="M20.644 12L17 8.35498V11H12C11.448 11 11 11.448 11 12C11 12.552 11.448 13 12 13H17V15.645L20.644 12Z" fill="currentColor"></path>
+                                    </svg>
+                                    <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+            <main class="css-f5wom">
+               <div class="O2Layout-content MuiBox-root css-1li7461">
+                  <div class="O2Layout-content-box MuiBox-root css-i9gxme">
+                     <div class="MuiContainer-root O2Container-root css-ehn054">
+                        <div class="O2Container-columns MuiBox-root css-y980x7">
+                           <div class="css-69gayk">
+                              <div class="MuiStack-root css-1ip9czs">
+                                 <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium defaultButton css-rl7w2o" tabindex="0" type="button">
+                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ChevronLeftIcon">
+                                       <path d="M16.5501 21.952C16.2971 21.952 16.0441 21.856 15.8511 21.665L6.75011 12.686C6.56111 12.498 6.45311 12.243 6.45411 11.976C6.45411 11.709 6.56111 11.455 6.75211 11.267L15.8531 2.334C16.2441 1.948 16.8731 1.955 17.2601 2.347C17.6451 2.739 17.6391 3.369 17.2461 3.754L8.86911 11.979L17.2491 20.248C17.6411 20.634 17.6441 21.264 17.2591 21.655C17.0641 21.852 16.8061 21.952 16.5491 21.952H16.5501Z" fill="currentColor"></path>
+                                    </svg>
+                                    <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                 </button>
+                                 &nbsp;
+                                 <h2 class="MuiTypography-root MuiTypography-h2 css-1rcmxn0">Výpis adres prodejce</h2>
+                                 &nbsp;
+                              </div>
+                              <div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 O2Paper-root css-18ma523">
+                                 <div class="O2Paper-content MuiBox-root css-19nvz4p">
+                                    <form>
+                                       <div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-tuxzvu">
+                                          <div class="MuiGrid-root MuiGrid-item css-1wxaqej">
+                                             <div class="MuiFormControl-root MuiFormControl-marginDense MuiTextField-root css-bkr5j8">
+                                                <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1p0754j" data-shrink="false" for=":r0:" id=":r0:-label">obec</label>
+                                                <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-lhp39j">
+                                                   <input aria-invalid="false" id=":r0:" name="obec" type="text" class="MuiInputBase-input MuiOutlinedInput-input css-1hyd5pw" value="">
+                                                   <fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-99fzws">
+                                                      <legend class="css-yjsfm1"><span>obec</span></legend>
+                                                   </fieldset>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="MuiGrid-root MuiGrid-item css-1wxaqej">
+                                             <div class="MuiFormControl-root MuiFormControl-marginDense MuiTextField-root css-bkr5j8">
+                                                <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1p0754j" data-shrink="false" for=":r1:" id=":r1:-label">Část obce</label>
+                                                <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-lhp39j">
+                                                   <input aria-invalid="false" id=":r1:" name="district" type="text" class="MuiInputBase-input MuiOutlinedInput-input css-1hyd5pw" value="">
+                                                   <fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-99fzws">
+                                                      <legend class="css-yjsfm1"><span>Část obce</span></legend>
+                                                   </fieldset>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="MuiGrid-root MuiGrid-item css-1wxaqej">
+                                             <div class="MuiFormControl-root MuiFormControl-marginDense MuiTextField-root css-bkr5j8">
+                                                <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1p0754j" data-shrink="false" for=":r2:" id=":r2:-label">PSČ</label>
+                                                <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-lhp39j">
+                                                   <input aria-invalid="false" id=":r2:" name="zip" type="text" class="MuiInputBase-input MuiOutlinedInput-input css-1hyd5pw" value="">
+                                                   <fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-99fzws">
+                                                      <legend class="css-yjsfm1"><span>PSČ</span></legend>
+                                                   </fieldset>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="MuiGrid-root MuiGrid-item css-1wxaqej">
+                                             <div class="MuiFormControl-root MuiFormControl-marginDense MuiTextField-root css-bkr5j8">
+                                                <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1p0754j" data-shrink="false" for=":r3:" id=":r3:-label">Ulice</label>
+                                                <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-lhp39j">
+                                                   <input aria-invalid="false" id=":r3:" name="street" type="text" class="MuiInputBase-input MuiOutlinedInput-input css-1hyd5pw" value="">
+                                                   <fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-99fzws">
+                                                      <legend class="css-yjsfm1"><span>Ulice</span></legend>
+                                                   </fieldset>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="MuiGrid-root MuiGrid-item css-1wxaqej">
+                                             <div class="MuiFormControl-root MuiFormControl-marginDense MuiTextField-root css-bkr5j8">
+                                                <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1p0754j" data-shrink="false" for=":r4:" id=":r4:-label">Číslo orientační</label>
+                                                <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-lhp39j">
+                                                   <input aria-invalid="false" id=":r4:" name="streetHouseNo" type="text" class="MuiInputBase-input MuiOutlinedInput-input css-1hyd5pw" value="">
+                                                   <fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-99fzws">
+                                                      <legend class="css-yjsfm1"><span>Číslo orientační</span></legend>
+                                                   </fieldset>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="MuiGrid-root MuiGrid-item css-1wxaqej">
+                                             <div class="MuiFormControl-root MuiFormControl-marginDense MuiTextField-root css-bkr5j8">
+                                                <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1p0754j" data-shrink="false" for=":r5:" id=":r5:-label">Číslo popisné</label>
+                                                <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-lhp39j">
+                                                   <input aria-invalid="false" id=":r5:" name="streetNo" type="text" class="MuiInputBase-input MuiOutlinedInput-input css-1hyd5pw" value="">
+                                                   <fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-99fzws">
+                                                      <legend class="css-yjsfm1"><span>Číslo popisné</span></legend>
+                                                   </fieldset>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="MuiGrid-root MuiGrid-item css-1wxaqej">
+                                             <div class="MuiFormControl-root MuiFormControl-marginDense MuiTextField-root css-bkr5j8">
+                                                <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1p0754j" data-shrink="false" for=":r6:" id=":r6:-label">Penetrace</label>
+                                                <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-lhp39j">
+                                                   <input aria-invalid="false" id=":r6:" name="penetration" type="text" class="MuiInputBase-input MuiOutlinedInput-input css-1hyd5pw" value="">
+                                                   <fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-99fzws">
+                                                      <legend class="css-yjsfm1"><span>Penetrace</span></legend>
+                                                   </fieldset>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="MuiStack-root css-1k8owf9"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation defaultButton css-wecmjj" tabindex="0" type="button">Smazat filtr<span class="MuiTouchRipple-root css-w0pj6f"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation primaryButton css-qxkgyu" tabindex="0" type="submit">Vyhledat<span class="MuiTouchRipple-root css-w0pj6f"></span></button></div>
+                                    </form>
+                                 </div>
+                              </div>
+                              <div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 O2Paper-root css-18ma523">
+                                 <div class="O2Paper-content MuiBox-root css-19nvz4p">
+                                    <div class="MuiBox-root css-1dzgi4w">
+                                       <div class="MuiDataGrid-root MuiDataGrid-root--densityCompact MuiDataGrid-withBorderColor css-1sxuxzg" style="--DataGrid-width: 360px; --DataGrid-hasScrollX: 1; --DataGrid-hasScrollY: 1; --DataGrid-scrollbarSize: 0px; --DataGrid-rowWidth: 2015px; --DataGrid-columnsTotalWidth: 2015px; --DataGrid-leftPinnedWidth: 0px; --DataGrid-rightPinnedWidth: 0px; --DataGrid-headerHeight: 39px; --DataGrid-headersTotalHeight: 39px; --DataGrid-topContainerHeight: 39px; --DataGrid-bottomContainerHeight: 0px; --height: 36px;">
+                                          <div role="presentation" data-id="gridPanelAnchor" class="css-qtdhae"></div>
+                                          <div class="MuiDataGrid-main css-jdaxyo" tabindex="-1" role="grid" aria-colcount="24" aria-rowcount="15" aria-multiselectable="false">
+                                             <div class="MuiDataGrid-virtualScroller css-vcglal" tabindex="-1" role="presentation" style="">
+                                                <div class="MuiDataGrid-topContainer MuiDataGrid-container--top css-1oudwrl" role="presentation">
+                                                   <div class="MuiDataGrid-columnHeaders css-qjqt6o" role="presentation">
+                                                      <div role="row" aria-rowindex="1" class="css-k008qs">
+                                                         <div role="presentation" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor" role="columnheader" tabindex="0" aria-colindex="1" aria-sort="none" aria-label="ID" data-field="id" style="height: 39px; width: 75px; min-width: 75px; max-width: 75px;">
+                                                            <div class="MuiDataGrid-columnHeaderDraggableContainer" draggable="false" role="presentation">
+                                                               <div class="MuiDataGrid-columnHeaderTitleContainer" role="presentation">
+                                                                  <div class="MuiDataGrid-columnHeaderTitleContainerContent">
+                                                                     <div class="MuiDataGrid-columnHeaderTitle css-mh3zap" aria-label="">ID</div>
+                                                                  </div>
+                                                                  <div class="MuiDataGrid-iconButtonContainer css-cp5hn7">
+                                                                     <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1eyctna" tabindex="-1" type="button" aria-label="Sort" title="Sort">
+                                                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiDataGrid-sortIcon css-1k33q06" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowUpwardIcon">
+                                                                           <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path>
+                                                                        </svg>
+                                                                        <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                                                     </button>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                            <div class="MuiDataGrid-columnSeparator MuiDataGrid-columnSeparator--resizable MuiDataGrid-columnSeparator--sideRight" style="min-height: 39px; opacity: 1;">
+                                                               <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiDataGrid-iconSeparator css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SeparatorIcon">
+                                                                  <path d="M11 19V5h2v14z"></path>
+                                                               </svg>
+                                                            </div>
+                                                         </div>
+                                                         <div class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor" role="columnheader" tabindex="-1" aria-colindex="2" aria-sort="none" aria-label="Obec" data-field="obec" style="height: 39px; width: 90px; min-width: 90px; max-width: 90px;">
+                                                            <div class="MuiDataGrid-columnHeaderDraggableContainer" draggable="false" role="presentation">
+                                                               <div class="MuiDataGrid-columnHeaderTitleContainer" role="presentation">
+                                                                  <div class="MuiDataGrid-columnHeaderTitleContainerContent">
+                                                                     <div class="MuiDataGrid-columnHeaderTitle css-mh3zap" aria-label="">Obec</div>
+                                                                  </div>
+                                                                  <div class="MuiDataGrid-iconButtonContainer css-cp5hn7">
+                                                                     <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1eyctna" tabindex="-1" type="button" aria-label="Sort" title="Sort">
+                                                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiDataGrid-sortIcon css-1k33q06" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowUpwardIcon">
+                                                                           <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path>
+                                                                        </svg>
+                                                                        <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                                                     </button>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                            <div class="MuiDataGrid-columnSeparator MuiDataGrid-columnSeparator--resizable MuiDataGrid-columnSeparator--sideRight" style="min-height: 39px; opacity: 1;">
+                                                               <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiDataGrid-iconSeparator css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SeparatorIcon">
+                                                                  <path d="M11 19V5h2v14z"></path>
+                                                               </svg>
+                                                            </div>
+                                                         </div>
+                                                         <div class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor" role="columnheader" tabindex="-1" aria-colindex="3" aria-sort="none" aria-label="Část obce" data-field="cast_obce" style="height: 39px; width: 90px; min-width: 90px; max-width: 90px;">
+                                                            <div class="MuiDataGrid-columnHeaderDraggableContainer" draggable="false" role="presentation">
+                                                               <div class="MuiDataGrid-columnHeaderTitleContainer" role="presentation">
+                                                                  <div class="MuiDataGrid-columnHeaderTitleContainerContent">
+                                                                     <div class="MuiDataGrid-columnHeaderTitle css-mh3zap" aria-label="">Část obce</div>
+                                                                  </div>
+                                                                  <div class="MuiDataGrid-iconButtonContainer css-cp5hn7">
+                                                                     <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1eyctna" tabindex="-1" type="button" aria-label="Sort" title="Sort">
+                                                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiDataGrid-sortIcon css-1k33q06" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowUpwardIcon">
+                                                                           <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path>
+                                                                        </svg>
+                                                                        <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                                                     </button>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                            <div class="MuiDataGrid-columnSeparator MuiDataGrid-columnSeparator--resizable MuiDataGrid-columnSeparator--sideRight" style="min-height: 39px; opacity: 1;">
+                                                               <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiDataGrid-iconSeparator css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SeparatorIcon">
+                                                                  <path d="M11 19V5h2v14z"></path>
+                                                               </svg>
+                                                            </div>
+                                                         </div>
+                                                         <div class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor" role="columnheader" tabindex="-1" aria-colindex="4" aria-sort="none" aria-label="Ulice" data-field="ulice" style="height: 39px; width: 100px; min-width: 100px; max-width: 100px;">
+                                                            <div class="MuiDataGrid-columnHeaderDraggableContainer" draggable="false" role="presentation">
+                                                               <div class="MuiDataGrid-columnHeaderTitleContainer" role="presentation">
+                                                                  <div class="MuiDataGrid-columnHeaderTitleContainerContent">
+                                                                     <div class="MuiDataGrid-columnHeaderTitle css-mh3zap" aria-label="">Ulice</div>
+                                                                  </div>
+                                                                  <div class="MuiDataGrid-iconButtonContainer css-cp5hn7">
+                                                                     <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1eyctna" tabindex="-1" type="button" aria-label="Sort" title="Sort">
+                                                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiDataGrid-sortIcon css-1k33q06" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowUpwardIcon">
+                                                                           <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path>
+                                                                        </svg>
+                                                                        <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                                                     </button>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                            <div class="MuiDataGrid-columnSeparator MuiDataGrid-columnSeparator--resizable MuiDataGrid-columnSeparator--sideRight" style="min-height: 39px; opacity: 1;">
+                                                               <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiDataGrid-iconSeparator css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SeparatorIcon">
+                                                                  <path d="M11 19V5h2v14z"></path>
+                                                               </svg>
+                                                            </div>
+                                                         </div>
+                                                         <div class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor" role="columnheader" tabindex="-1" aria-colindex="5" aria-sort="none" aria-label="c_pop" data-field="c_pop" style="height: 39px; width: 50px; min-width: 50px; max-width: 50px;">
+                                                            <div class="MuiDataGrid-columnHeaderDraggableContainer" draggable="false" role="presentation">
+                                                               <div class="MuiDataGrid-columnHeaderTitleContainer" role="presentation">
+                                                                  <div class="MuiDataGrid-columnHeaderTitleContainerContent">
+                                                                     <div class="MuiDataGrid-columnHeaderTitle css-mh3zap" aria-label="">c_pop</div>
+                                                                  </div>
+                                                                  <div class="MuiDataGrid-iconButtonContainer css-cp5hn7">
+                                                                     <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1eyctna" tabindex="-1" type="button" aria-label="Sort" title="Sort">
+                                                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiDataGrid-sortIcon css-1k33q06" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowUpwardIcon">
+                                                                           <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path>
+                                                                        </svg>
+                                                                        <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                                                     </button>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                            <div class="MuiDataGrid-columnSeparator MuiDataGrid-columnSeparator--resizable MuiDataGrid-columnSeparator--sideRight" style="min-height: 39px; opacity: 1;">
+                                                               <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiDataGrid-iconSeparator css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SeparatorIcon">
+                                                                  <path d="M11 19V5h2v14z"></path>
+                                                               </svg>
+                                                            </div>
+                                                         </div>
+                                                         <div class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor" role="columnheader" tabindex="-1" aria-colindex="6" aria-sort="none" aria-label="c_or" data-field="c_or" style="height: 39px; width: 50px; min-width: 50px; max-width: 50px;">
+                                                            <div class="MuiDataGrid-columnHeaderDraggableContainer" draggable="false" role="presentation">
+                                                               <div class="MuiDataGrid-columnHeaderTitleContainer" role="presentation">
+                                                                  <div class="MuiDataGrid-columnHeaderTitleContainerContent">
+                                                                     <div class="MuiDataGrid-columnHeaderTitle css-mh3zap" aria-label="">c_or</div>
+                                                                  </div>
+                                                                  <div class="MuiDataGrid-iconButtonContainer css-cp5hn7">
+                                                                     <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1eyctna" tabindex="-1" type="button" aria-label="Sort" title="Sort">
+                                                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiDataGrid-sortIcon css-1k33q06" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowUpwardIcon">
+                                                                           <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path>
+                                                                        </svg>
+                                                                        <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                                                     </button>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                            <div class="MuiDataGrid-columnSeparator MuiDataGrid-columnSeparator--resizable MuiDataGrid-columnSeparator--sideRight" style="min-height: 39px; opacity: 1;">
+                                                               <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiDataGrid-iconSeparator css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SeparatorIcon">
+                                                                  <path d="M11 19V5h2v14z"></path>
+                                                               </svg>
+                                                            </div>
+                                                         </div>
+                                                         <div class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor" role="columnheader" tabindex="-1" aria-colindex="7" aria-sort="none" aria-label="HP" data-field="hp_cetin" style="height: 39px; width: 70px; min-width: 70px; max-width: 70px;">
+                                                            <div class="MuiDataGrid-columnHeaderDraggableContainer" draggable="false" role="presentation">
+                                                               <div class="MuiDataGrid-columnHeaderTitleContainer" role="presentation">
+                                                                  <div class="MuiDataGrid-columnHeaderTitleContainerContent">
+                                                                     <div class="MuiDataGrid-columnHeaderTitle css-mh3zap" aria-label="">HP</div>
+                                                                  </div>
+                                                                  <div class="MuiDataGrid-iconButtonContainer css-cp5hn7">
+                                                                     <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1eyctna" tabindex="-1" type="button" aria-label="Sort" title="Sort">
+                                                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiDataGrid-sortIcon css-1k33q06" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowUpwardIcon">
+                                                                           <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path>
+                                                                        </svg>
+                                                                        <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                                                     </button>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                            <div class="MuiDataGrid-columnSeparator MuiDataGrid-columnSeparator--resizable MuiDataGrid-columnSeparator--sideRight" style="min-height: 39px; opacity: 1;">
+                                                               <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiDataGrid-iconSeparator css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SeparatorIcon">
+                                                                  <path d="M11 19V5h2v14z"></path>
+                                                               </svg>
+                                                            </div>
+                                                         </div>
+                                                         <div class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor" role="columnheader" tabindex="-1" aria-colindex="8" aria-sort="none" aria-label="Datum spuštění" data-field="cetin_v_komerci" style="height: 39px; width: 140px; min-width: 140px; max-width: 140px;">
+                                                            <div class="MuiDataGrid-columnHeaderDraggableContainer" draggable="false" role="presentation">
+                                                               <div class="MuiDataGrid-columnHeaderTitleContainer" role="presentation">
+                                                                  <div class="MuiDataGrid-columnHeaderTitleContainerContent">
+                                                                     <div class="MuiDataGrid-columnHeaderTitle css-mh3zap" aria-label="">Datum spuštění</div>
+                                                                  </div>
+                                                                  <div class="MuiDataGrid-iconButtonContainer css-cp5hn7">
+                                                                     <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1eyctna" tabindex="-1" type="button" aria-label="Sort" title="Sort">
+                                                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiDataGrid-sortIcon css-1k33q06" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowUpwardIcon">
+                                                                           <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path>
+                                                                        </svg>
+                                                                        <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                                                     </button>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                            <div class="MuiDataGrid-columnSeparator MuiDataGrid-columnSeparator--resizable MuiDataGrid-columnSeparator--sideRight" style="min-height: 39px; opacity: 1;">
+                                                               <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiDataGrid-iconSeparator css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SeparatorIcon">
+                                                                  <path d="M11 19V5h2v14z"></path>
+                                                               </svg>
+                                                            </div>
+                                                         </div>
+                                                         <div role="presentation" class="MuiDataGrid-filler"></div>
+                                                         <div role="presentation" class="MuiDataGrid-scrollbarFiller MuiDataGrid-scrollbarFiller--header"></div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div role="presentation" class="MuiDataGrid-virtualScrollerContent css-0" style="width: 2015px; height: 504px;">
+                                                   <div class="MuiDataGrid-virtualScrollerRenderZone css-1inm7gi" role="rowgroup" style="transform: translate3d(0px, 0px, 0px);">
+                                                      <div data-id="24738590" data-rowindex="0" role="row" class="MuiDataGrid-row MuiDataGrid-row--firstVisible" aria-rowindex="2" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/24738590">24738590</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Jilemnického" tabindex="-1" style="--width: 100px;">Jilemnického</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="295" tabindex="-1" style="--width: 50px;">295</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" tabindex="-1" style="--width: 50px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="12" tabindex="-1" style="--width: 70px;">12</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                      <div data-id="24738638" data-rowindex="1" role="row" class="MuiDataGrid-row" aria-rowindex="3" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/24738638">24738638</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Jilemnického" tabindex="-1" style="--width: 100px;">Jilemnického</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="299" tabindex="-1" style="--width: 50px;">299</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" tabindex="-1" style="--width: 50px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="18" tabindex="-1" style="--width: 70px;">18</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                      <div data-id="24736520" data-rowindex="2" role="row" class="MuiDataGrid-row" aria-rowindex="4" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/24736520">24736520</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Jilemnického" tabindex="-1" style="--width: 100px;">Jilemnického</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="73" tabindex="-1" style="--width: 50px;">73</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" tabindex="-1" style="--width: 50px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="16" tabindex="-1" style="--width: 70px;">16</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                      <div data-id="24736538" data-rowindex="3" role="row" class="MuiDataGrid-row" aria-rowindex="5" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/24736538">24736538</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Jilemnického" tabindex="-1" style="--width: 100px;">Jilemnického</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="74" tabindex="-1" style="--width: 50px;">74</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" tabindex="-1" style="--width: 50px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="24" tabindex="-1" style="--width: 70px;">24</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                      <div data-id="15982823" data-rowindex="4" role="row" class="MuiDataGrid-row" aria-rowindex="6" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/15982823">15982823</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Moravská Třebová" tabindex="-1" style="--width: 90px;">Moravská Třebová</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Předměstí" tabindex="-1" style="--width: 90px;">Předměstí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Západní" tabindex="-1" style="--width: 100px;">Západní</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="1253" tabindex="-1" style="--width: 50px;">1253</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" title="29" tabindex="-1" style="--width: 50px;">29</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="12" tabindex="-1" style="--width: 70px;">12</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                      <div data-id="24738603" data-rowindex="5" role="row" class="MuiDataGrid-row" aria-rowindex="7" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/24738603">24738603</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Jilemnického" tabindex="-1" style="--width: 100px;">Jilemnického</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="296" tabindex="-1" style="--width: 50px;">296</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" tabindex="-1" style="--width: 50px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="18" tabindex="-1" style="--width: 70px;">18</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                      <div data-id="24738611" data-rowindex="6" role="row" class="MuiDataGrid-row" aria-rowindex="8" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/24738611">24738611</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Jilemnického" tabindex="-1" style="--width: 100px;">Jilemnického</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="297" tabindex="-1" style="--width: 50px;">297</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" tabindex="-1" style="--width: 50px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="12" tabindex="-1" style="--width: 70px;">12</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                      <div data-id="24738620" data-rowindex="7" role="row" class="MuiDataGrid-row" aria-rowindex="9" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/24738620">24738620</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Ústí nad Orlicí" tabindex="-1" style="--width: 90px;">Ústí nad Orlicí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Jilemnického" tabindex="-1" style="--width: 100px;">Jilemnického</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="298" tabindex="-1" style="--width: 50px;">298</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" tabindex="-1" style="--width: 50px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="18" tabindex="-1" style="--width: 70px;">18</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                      <div data-id="7660880" data-rowindex="8" role="row" class="MuiDataGrid-row" aria-rowindex="10" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/7660880">7660880</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Holice" tabindex="-1" style="--width: 90px;">Holice</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Holice" tabindex="-1" style="--width: 90px;">Holice</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Tyršova" tabindex="-1" style="--width: 100px;">Tyršova</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="764" tabindex="-1" style="--width: 50px;">764</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" tabindex="-1" style="--width: 50px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="8" tabindex="-1" style="--width: 70px;">8</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                      <div data-id="7660553" data-rowindex="9" role="row" class="MuiDataGrid-row" aria-rowindex="11" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/7660553">7660553</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Holice" tabindex="-1" style="--width: 90px;">Holice</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Holice" tabindex="-1" style="--width: 90px;">Holice</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Tyršova" tabindex="-1" style="--width: 100px;">Tyršova</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="731" tabindex="-1" style="--width: 50px;">731</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" tabindex="-1" style="--width: 50px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="8" tabindex="-1" style="--width: 70px;">8</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                      <div data-id="7660529" data-rowindex="10" role="row" class="MuiDataGrid-row" aria-rowindex="12" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/7660529">7660529</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Holice" tabindex="-1" style="--width: 90px;">Holice</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Holice" tabindex="-1" style="--width: 90px;">Holice</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Tyršova" tabindex="-1" style="--width: 100px;">Tyršova</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="728" tabindex="-1" style="--width: 50px;">728</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" tabindex="-1" style="--width: 50px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="8" tabindex="-1" style="--width: 70px;">8</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                      <div data-id="15982793" data-rowindex="11" role="row" class="MuiDataGrid-row" aria-rowindex="13" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/15982793">15982793</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Moravská Třebová" tabindex="-1" style="--width: 90px;">Moravská Třebová</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Předměstí" tabindex="-1" style="--width: 90px;">Předměstí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Západní" tabindex="-1" style="--width: 100px;">Západní</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="1250" tabindex="-1" style="--width: 50px;">1250</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" title="34" tabindex="-1" style="--width: 50px;">34</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="11" tabindex="-1" style="--width: 70px;">11</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                      <div data-id="15982807" data-rowindex="12" role="row" class="MuiDataGrid-row" aria-rowindex="14" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/15982807">15982807</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Moravská Třebová" tabindex="-1" style="--width: 90px;">Moravská Třebová</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Předměstí" tabindex="-1" style="--width: 90px;">Předměstí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Západní" tabindex="-1" style="--width: 100px;">Západní</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="1251" tabindex="-1" style="--width: 50px;">1251</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" title="36" tabindex="-1" style="--width: 50px;">36</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="11" tabindex="-1" style="--width: 70px;">11</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                      <div data-id="15982815" data-rowindex="13" role="row" class="MuiDataGrid-row MuiDataGrid-row--lastVisible" aria-rowindex="15" aria-selected="false" style="max-height: 36px; min-height: 36px; --height: 36px;">
+                                                         <div role="presentation" class="MuiDataGrid-cellOffsetLeft" style="width: 0px;"></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="id" data-colindex="0" aria-colindex="1" aria-colspan="1" tabindex="-1" style="--width: 75px;"><a class="active-link" href="/direct-sales/connections/detail/15982815">15982815</a></div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="obec" data-colindex="1" aria-colindex="2" aria-colspan="1" title="Moravská Třebová" tabindex="-1" style="--width: 90px;">Moravská Třebová</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cast_obce" data-colindex="2" aria-colindex="3" aria-colspan="1" title="Předměstí" tabindex="-1" style="--width: 90px;">Předměstí</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="ulice" data-colindex="3" aria-colindex="4" aria-colspan="1" title="Západní" tabindex="-1" style="--width: 100px;">Západní</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_pop" data-colindex="4" aria-colindex="5" aria-colspan="1" title="1252" tabindex="-1" style="--width: 50px;">1252</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="c_or" data-colindex="5" aria-colindex="6" aria-colspan="1" title="38" tabindex="-1" style="--width: 50px;">38</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="hp_cetin" data-colindex="6" aria-colindex="7" aria-colspan="1" title="11" tabindex="-1" style="--width: 70px;">11</div>
+                                                         <div class="MuiDataGrid-cell MuiDataGrid-cell--textLeft" role="gridcell" data-field="cetin_v_komerci" data-colindex="7" aria-colindex="8" aria-colspan="1" title="29. 12. 2025 01:00" tabindex="-1" style="--width: 140px;">29. 12. 2025 01:00</div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="MuiDataGrid-bottomContainer MuiDataGrid-container--bottom css-14egwce" role="presentation"></div>
+                                             </div>
+                                             <div class="MuiDataGrid-scrollbar MuiDataGrid-scrollbar--vertical css-1b9e9gy" tabindex="-1">
+                                                <div class="MuiDataGrid-scrollbarContent css-1baulvz" style="height: 489.523px;"></div>
+                                             </div>
+                                             <div class="MuiDataGrid-scrollbar MuiDataGrid-scrollbar--horizontal css-1rtad1" tabindex="-1">
+                                                <div class="MuiDataGrid-scrollbarContent css-1baulvz" style="width: 2015px;"></div>
+                                             </div>
+                                          </div>
+                                          <div class="MuiDataGrid-footerContainer MuiDataGrid-withBorderColor css-9ffb5l">
+                                             <div></div>
+                                             <div class="MuiTablePagination-root css-tchbo9">
+                                                <div class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular MuiTablePagination-toolbar css-r17mgj">
+                                                   <div class="MuiTablePagination-spacer css-1mrwq1p"></div>
+                                                   <p class="MuiTablePagination-selectLabel css-1j0dvce" id=":r8:">Rows per page:</p>
+                                                   <div class="MuiInputBase-root MuiInputBase-colorPrimary MuiTablePagination-input css-zl8j2a">
+                                                      <div tabindex="0" role="combobox" aria-controls=":r9:" aria-expanded="false" aria-haspopup="listbox" aria-labelledby=":r8: :r7:" id=":r7:" class="MuiSelect-select MuiTablePagination-select MuiSelect-standard MuiInputBase-input css-1ivao61">100</div>
+                                                      <input aria-invalid="false" aria-hidden="true" tabindex="-1" class="MuiSelect-nativeInput css-1k3x8v3" value="100">
+                                                      <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiTablePagination-selectIcon MuiSelect-iconStandard css-1kzmcpt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowDropDownIcon">
+                                                         <path d="M7 10l5 5 5-5z"></path>
+                                                      </svg>
+                                                   </div>
+                                                   <p class="MuiTablePagination-displayedRows css-1j0dvce">1–14 of 14</p>
+                                                   <div class="MuiTablePagination-actions">
+                                                      <button class="MuiButtonBase-root Mui-disabled MuiIconButton-root Mui-disabled MuiIconButton-colorInherit MuiIconButton-sizeMedium css-1i56g9e" tabindex="-1" type="button" disabled="" aria-label="Go to previous page" title="Go to previous page">
+                                                         <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="KeyboardArrowLeftIcon">
+                                                            <path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"></path>
+                                                         </svg>
+                                                      </button>
+                                                      <button class="MuiButtonBase-root Mui-disabled MuiIconButton-root Mui-disabled MuiIconButton-colorInherit MuiIconButton-sizeMedium css-1i56g9e" tabindex="-1" type="button" disabled="" aria-label="Go to next page" title="Go to next page">
+                                                         <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="KeyboardArrowRightIcon">
+                                                            <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+                                                         </svg>
+                                                      </button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer-container MuiBox-root css-0">
+                     <div class="MuiBox-root css-1kmndt8">
+                        <div class="MuiContainer-root O2Container-root css-ehn054">
+                           <div class="O2Container-columns MuiBox-root css-y980x7">
+                              <div class="css-69gayk">
+                                 <div class="MuiStack-root css-1x7rqo8">
+                                    <div class="MuiStack-root css-1ocv3ka">
+                                       <div class="MuiStack-root css-fnwayn">
+                                          <img src="https://cdn.o2.cz/mojeo2-product/omni/docs/ssd/ssd_logo_transparent_white.png" height="18" alt="SSD Logo" style="margin-right: 6px; margin-bottom: 1px; max-width: 100%;">
+                                          <div class="MuiBox-root css-0">
+                                             <p class="MuiTypography-root MuiTypography-body1 css-6mqqn1">Vytvořeno v oddělení <b>Sales System Development</b></p>
+                                             <p class="MuiTypography-root MuiTypography-body1 css-1xc4d76">(verze: FE 1.9.11 / BE 1.9.8)</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="MuiBox-root css-fzqoy4">
+                                       <hr class="MuiDivider-root MuiDivider-fullWidth css-1ut7p6r">
+                                    </div>
+                                    <div class="MuiStack-root css-1v77nbp">
+                                       <p class="MuiTypography-root MuiTypography-body1 css-ugh6v0" data-elm="11.1.5_008, 11.1.5.1_006">© O2 Czech Republic a.s.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </main>
+         </div>
+      </div>
+   </body>
+   <div></div>
+</html>
